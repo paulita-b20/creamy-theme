@@ -1,1 +1,89 @@
-/* Inserta tu código aquí */
+*
+{
+   
+    
+    font-family: 'Merriweather';
+}
+/*datos generale*/
+.navbar, .about , footer {
+    background:#da2c38;
+    overflow: hidden;
+    color: #f4f0bb;
+}
+.hero , .iconos {
+    background: #f4f0bb;
+    color: #da2c38;
+}
+
+.logo ,.frase {
+    color: #f6DEAF;
+    font-weight: bolder;
+}
+#btn_menu {
+    border: 2px solid white;
+    background: transparent;
+}
+
+/*esta es mi header*/
+header nav .navbar-nav li a {color: #f4f0bb;} 
+header nav .navbar-nav li :hover {background-color:#f4f0bb; color:#da2c38;}  
+header span{background-color: #7D7D7D;}
+header { padding: 10px; }
+.logo {
+    padding-left: 100px;
+}
+
+
+/* esta es la section de home */
+.home {
+    background-image: url(../img/creamy.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.degradado {
+    background-color: rgba(19,19,19,0.75);
+}
+.frase {
+    padding: 170px 0px;
+    margin: 0 auto;
+}
+
+.home h2{
+    padding-top: 200px;
+    text-align: center;
+    color: #f6DEAF;
+}
+
+.home p{
+    padding-bottom: 200px;
+    text-align: center;
+    color: #f6DEAF;
+}
+/*esta es la parte de hero*/
+.hero {
+    padding:20px 0px;
+    
+}
+.hero img {
+    width: 100%;
+}
+/*esta es la parte del about*/
+.about {
+    padding-bottom: 20px;
+}
+/*esta es la parte de los iconos*/
+.iconos {
+    padding: 20px 0px 80px 0px; 
+}
+.icon-container {
+    font-size:80px; 
+}
+.iconos i{
+    font-size:80px;
+}
+/* esta es la parte del footer*/
+footer {
+    padding: 10px 0px 0px 0px
+}

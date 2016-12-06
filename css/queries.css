@@ -1,0 +1,8 @@
+@media screen and(max-width:999px){
+    .logo {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    header nav .navbar-nav {padding: 0px;}
+    header nav .navbar-nav li a {text-align: center;} 
+}
